@@ -7,7 +7,7 @@ resource "aws_instance" "server" {
 
   connection {
     type        = "ssh"
-    user        = "ubuntu"
+    user        = "ec2-user"
     private_key = file("/home/kiyana/.ssh/project-1.pem") # Replace with the path to your private key
     host        = self.public_ip
   }
