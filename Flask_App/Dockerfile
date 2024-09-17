@@ -4,9 +4,10 @@ FROM python:3.10-alpine
 WORKDIR /app
 
 # Copia los archivos necesarios al contenedor
-COPY Flask_App/requirements.txt ./
-COPY Flask_App/app.py ./
-COPY Flask_App/templates ./templates
+COPY requirements.txt ./
+COPY app.py ./
+COPY templates ./templates
+COPY static ./static
 
 # Instala las dependencias del sistema necesarias
 RUN apk add --no-cache gcc musl-dev
