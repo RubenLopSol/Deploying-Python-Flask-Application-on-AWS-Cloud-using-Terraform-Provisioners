@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project automates the deployment of a Python Flask application on AWS EC2 instances using Terraform Provisioners. It creates a streamlined and consistent deployment pipeline, leveraging AWS infrastructure components such as VPCs, subnets, security groups, and EC2 instances.
+This project automates the deployment of a Docker container of a Python Flask application on AWS EC2 instances using Terraform Provisioners. It creates a streamlined and consistent deployment pipeline, leveraging AWS infrastructure components such as VPCs, subnets, security groups, and EC2 instances.
 
 ## Project Features
 
